@@ -1,0 +1,5 @@
+/* This is just so it won't take the browser default background in my search input on home page */
+#search:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #19181f inset !important;
+    -webkit-text-fill-color: white !important;
+}

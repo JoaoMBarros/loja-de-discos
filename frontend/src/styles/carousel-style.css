@@ -1,0 +1,17 @@
+.carousel-home {
+    width: 200%;
+    animation: slide 40s linear infinite;
+  }
+
+.carousel-home:hover {
+    animation-play-state: paused;
+}
+  
+  @keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
